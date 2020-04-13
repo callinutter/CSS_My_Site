@@ -43,7 +43,7 @@ a {
 }
 
 a:hover {
-  color: #EAF6F6;
+  color: #be79df;
 }
 
 p {
@@ -154,4 +154,14 @@ padding: 100px 0;
   text-decoration: none;
   background-color: #11cdd4;
   border-radius: 8px;
+}
+
+/* Footer */
+
+.footer-icon {
+  color: #11999E;
+}
+
+.footer-icon:hover {
+  color: #EAF6F6;
 }
