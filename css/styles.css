@@ -43,7 +43,7 @@ a {
 }
 
 a:hover {
-  color: #EAF6F6;
+  color: #be79df;
 }
 
 p {
@@ -52,6 +52,10 @@ p {
 
 
 
+}
+
+.heading-txt {
+  margin-bottom: 0px;
 }
 
 .intro {
@@ -65,20 +69,33 @@ p {
   margin: 50px auto 100px auto;
 }
 
+.skill-row-2{
+  text-align: right;
+  width: 50%;
+  margin: 50px auto 100px auto;
+  background-color: #effcef;
+
+}
+
 .top-container{
   background-color: #effcef;
   position: relative;
   padding-top: 100px;
+  text-align: center;
+  margin-bottom: 0;
 }
 
 .bottom-container {
 background-color: #66BFBF;
 padding: 50px 0 20px;
+text-align: center;
 }
 
 .middle-container {
 background-color: #effcef;
 padding: 100px 0;
+position: relative;
+text-align: center;
 }
 
 .profile-photo {
@@ -124,7 +141,8 @@ padding: 100px 0;
 .bottom-cloud {
   position: absolute;
   left: 300px;
-  bottom: 300px;
+  top: 280px;
+  
 }
 
 .mountain {
@@ -133,6 +151,7 @@ padding: 100px 0;
 
 .contact-me {
   padding-bottom: 30px;
+  text-align: center;
 }
 
 .copyright {
@@ -146,6 +165,7 @@ padding: 100px 0;
   margin: 30px auto;
 }
 
+
 .btn {
   margin: 30px auto 100px auto;
   padding: 15px 25px 15px 25px;
@@ -154,4 +174,14 @@ padding: 100px 0;
   text-decoration: none;
   background-color: #11cdd4;
   border-radius: 8px;
+}
+
+/* Footer */
+
+.footer-icon {
+  color: #11999E;
+}
+
+.footer-icon:hover {
+  color: #EAF6F6;
 }
