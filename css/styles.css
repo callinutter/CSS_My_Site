@@ -126,7 +126,7 @@ p {
 }
 
 .yoga-description {
-  text-align: left;
+  text-align: left !important;
 }
 
 .skill-row-2{
