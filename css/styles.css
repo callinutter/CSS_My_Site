@@ -220,11 +220,11 @@ background-color: #66BFBF !important;
 }
 
 /* Media Query */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
 
   .topnav a {
     font-size: 2rem;
-    padding: .5rem;
+    padding: 10px !important;
   }
 
   .top-txt, .heading-txt {
