@@ -1,22 +1,22 @@
 body {
   color: #40514E;
   margin: 0;
-  text-align: center;
+  text-align: center !important;
   font-family: 'Open Sans Condensed', sans-serif;
 }
 
 h1 {
-  font-size: 5.625rem;
+  font-size: 5.625rem !important;
   color: #66BFBF;
   margin: 50px auto 0 auto;
   font-family: 'Dancing Script', cursive;
 }
 
 h2 {
-  font-size: 2.5rem;
+  font-size: 2.5rem !important;
   color: #66BFBF;
   font-weight: lighter;
-  font-family: 'montserrat', sans-serif;
+  font-family: 'montserrat', sans-serif !important;
 }
 
 h3 {
@@ -26,16 +26,16 @@ h3 {
 }
 
 hr{
-  border-style: dotted none none none;
-  width: 7%;
-  border-color: gray;
-  border-width: 7px;
-  margin: 100px auto;
+  border-style: dotted none none none !important;
+  width: 7% !important;
+  border-color: gray !important;
+  border-width: 7px !important;
+  margin: 100px auto !important;
 
 }
 
 a {
-  color: #11999E;
+  color: #11999E !important;
   font-family: 'montserrat', sans-serif;
   font-weight: normal;
   margin: 10px 20px;
@@ -54,14 +54,25 @@ p {
 /* NAVBAR */
 .topnav {
   background-color: #66BFBF;
-  overflow: hidden;
+  padding: 25px;
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+}
+
+.topnav a {
+  font-size: 2rem;
+  
+}
+
+.topnav a:hover {
+  color: #be79df !important;
 }
 
 /* TOP CONTAINER */
 .top-container{
   background-color: #effcef;
   position: relative;
-  padding-top: 20px;
+  padding: 20px !important;
   text-align: center;
   margin-bottom: 0;
 }
@@ -75,8 +86,8 @@ p {
 
 /* MIDDLE CONTAINER */
 .middle-container {
-  background-color: #effcef;
-  padding: 50px 0;
+  background-color: #effcef !important;
+  padding: 4rem, 0, 1rem !important;
   position: relative;
   text-align: center;
   }
@@ -86,7 +97,7 @@ p {
   opacity: 0.2;
   height: 300px;
   width: 300px;
-
+  margin-bottom: 2rem;
 }
 
 .profile-photo:hover {
@@ -133,35 +144,31 @@ p {
   text-align: center;
 }
 .btn {
-  margin: 30px auto 100px auto;
-  padding: 15px 25px 15px 25px;
-  border: 2px solid #66BFBF;
-  background-color: #effcef;
-  color: #be79df;
+  margin: 30px auto!important;
+  padding: 15px 25px 15px 25px !important;
+  border: 2px solid #66BFBF !important;
+  background-color: #effcef !important;
+  color: #be79df !important;
   /* padding: 14px 28px; */
-  font-family: 'montserrat', sans-serif;
-  font-size: 16px;
+  font-family: 'montserrat', sans-serif !important;
+  font-size: 16px !important;
 }
 .btn:hover {
-  background-color: #fff;
+  background-color: #fff !important;
 }
-
-/* .need-yoga {
-  width: 40%;
-  margin: 30px auto;
-} */
 
 /* Footer */
 .bottom-container {
   background-color: #66BFBF;
-  padding: 50px 0 10px;
+  padding: 50px 0 10px !important;
   text-align: center;
   }
 
   .copyright {
     color: #EAF6F6;
     font-size: 0.75rem;
-    padding: 20px 0;
+    padding: .5rem 0;
+    margin-bottom: .2rem !important;
   }
 
 .footer-icon {
@@ -172,16 +179,75 @@ p {
   color: #EAF6F6;
 }
 
+/* APP PAGE */ 
+.top-container-1 {
+  background-color: #effcef;
+  position: relative;
+  padding: 3rem 4rem !important;
+  line-height: 1.5rem !important;
+  text-align: center;
+}
+
+.app-title {
+  padding: 2rem 6rem !important;
+  font-size: 4rem !important;
+}
+
+.app-description {
+  font-size: 1.5rem !important;
+  color: #66BFBF;
+}
+
+
+.row {
+  margin: 0 !important;
+  background-color: #effcef !important;
+  padding-bottom: 3rem;
+}
+
+.card {
+background-color: #66BFBF !important;
+}
+
+.card a {
+  margin: 1.5rem !important;
+}
+
+.bottom-container-1 {
+  background-color: #66BFBF;
+  padding: 1rem 0 1rem 0 !important;
+  text-align: center;
+}
+
 /* Media Query */
 @media screen and (max-width: 1018px) {
   /* .top-container {
     position: relative;
     text-align: center;
   } */
+  .topnav a {
+    font-size: 1.5rem;
+  }
 
   .top-txt, .heading-txt {
     position: static;
     margin: auto;
   }
+
+  .app-title {
+    padding: 1.5rem 5rem !important;
+    font-size: 3rem !important;
+  }
+
+  .app-description {
+    font-size: 1rem !important;
+    line-height: 2;
+  }
+
+  .card {
+    margin: 1rem  !important;
+  }
 }
+
+
 
