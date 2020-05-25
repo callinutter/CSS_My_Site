@@ -120,14 +120,13 @@ p {
 }
 
 .yoga-img {
-  border-radius: 50%;
-  opacity: 0.2;
   width: 25%;
   float: right;
   margin-left: 30px;
 }
-.yoga-img:hover {
-  opacity: 1.0;
+
+.yoga-description {
+  text-align: left;
 }
 
 .skill-row-2{
