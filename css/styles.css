@@ -220,11 +220,8 @@ background-color: #66BFBF !important;
 }
 
 /* Media Query */
-@media screen and (max-width: 1018px) {
-  /* .top-container {
-    position: relative;
-    text-align: center;
-  } */
+@media screen and (max-width: 768px) (min-width: 400px) {
+
   .topnav a {
     font-size: 1.5rem;
   }
@@ -235,7 +232,7 @@ background-color: #66BFBF !important;
   }
 
   .app-title {
-    padding: 1.5rem 5rem !important;
+    padding: 1.5rem 9rem !important;
     font-size: 3rem !important;
   }
 
@@ -245,7 +242,7 @@ background-color: #66BFBF !important;
   }
 
   .card {
-    margin: 1rem  !important;
+  margin-bottom: 2rem !important;
   }
 }
 
