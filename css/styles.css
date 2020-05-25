@@ -52,19 +52,25 @@ p {
 }
 
 /* NAVBAR */
-.topnav {
+.navbar {
   background-color: #66BFBF;
   padding: 25px;
   font-family: 'Dancing Script', cursive;
   text-align: center;
 }
 
-.topnav a {
-  font-size: 2rem;
-  
+.navbar-brand {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.5rem !important;
+  font-weight: bold;
 }
 
-.topnav a:hover {
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+.navbar a:hover {
   color: #be79df !important;
 }
 
@@ -160,12 +166,12 @@ p {
   text-align: center;
   }
 
-  .copyright {
-    color: #EAF6F6;
-    font-size: 0.75rem;
-    padding: .5rem 0;
-    margin-bottom: .2rem !important;
-  }
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: .5rem 0;
+  margin-bottom: .2rem !important;
+}
 
 .footer-icon {
   color: #11999E;
@@ -244,8 +250,6 @@ background-color: #66BFBF !important;
     width: 85%;
     margin: 50px auto;
   }
-
-
 
   .app-description {
     font-size: 1.5rem !important;
