@@ -189,7 +189,7 @@ p {
 }
 
 .app-title {
-  padding: 2rem 6rem !important;
+  /* padding: 2rem 6rem !important; */
   font-size: 4rem !important;
 }
 
@@ -220,7 +220,7 @@ background-color: #66BFBF !important;
 }
 
 /* Media Query */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1018px) {
 
   .topnav a {
     font-size: 2rem;
