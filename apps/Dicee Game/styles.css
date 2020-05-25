@@ -80,28 +80,19 @@ footer {
 
 @media screen and (max-width: 1018px) {
 
-  img {
-    width: 200px !important;
+  h1 {
+    font-size: 3.5rem;
+    padding: 2rem;
   }
 
-  h1 {
-    font-size: 3.5rem !important;
-  }
+  img {
+    width: 50% !important;
+    padding-bottom: 3rem;
+  } 
 
   .topnav a {
     font-size: 2rem;
     padding: 10px !important;
-  }
-
-  .container {
-    width: 80%;
-    text-align: center !important;
-    margin-top: 3rem !important;
-    padding-right: 0 !important;
-  } 
-
-  .container-2 {
-    margin-top: 5rem !important;
   }
 
   .button {
