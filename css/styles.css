@@ -116,7 +116,7 @@ p {
 .skill-row{
   text-align: left;
   width: 50%;
-  margin: 50px auto 100px auto;
+  margin: 50px auto 80px auto;
 }
 
 .yoga-img {
@@ -132,7 +132,7 @@ p {
 .skill-row-2{
   text-align: right;
   width: 50%;
-  margin: 50px auto 100px auto;
+  margin: 50px auto;
   background-color: #effcef;
 }
 
@@ -227,6 +227,11 @@ background-color: #66BFBF !important;
   .top-txt, .heading-txt {
     position: static;
     margin: auto;
+  }
+
+  .skills-row .skill-row-2 {
+    width: 80%;
+    margin: 50px 10px;
   }
 
   .app-title {
