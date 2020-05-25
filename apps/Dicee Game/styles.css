@@ -37,7 +37,7 @@ footer {
 
 .topnav a {
   font-size: 2rem;
-  padding: 20px;
+  padding: 30px;
   color: #232931 !important;
 }
 
@@ -78,7 +78,7 @@ footer {
 
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
 
   img {
     width: 200px !important;
@@ -89,7 +89,8 @@ footer {
   }
 
   .topnav a {
-    font-size: 1.5rem;
+    font-size: 2rem;
+    padding: 30px;
   }
 
   .container {
@@ -106,4 +107,5 @@ footer {
   .button {
     margin: auto 5rem !important;
     text-align: center !important;
+    width: 50% !important;
   }

@@ -220,10 +220,11 @@ background-color: #66BFBF !important;
 }
 
 /* Media Query */
-@media screen and (max-width: 768px) (min-width: 400px) {
+@media screen and (max-width: 768px) {
 
   .topnav a {
-    font-size: 1.5rem;
+    font-size: 2rem;
+    padding: .5rem;
   }
 
   .top-txt, .heading-txt {
@@ -237,12 +238,12 @@ background-color: #66BFBF !important;
   }
 
   .app-description {
-    font-size: 1rem !important;
+    font-size: 1.5rem !important;
     line-height: 2;
   }
 
   .card {
-  margin-bottom: 2rem !important;
+  margin: 25px !important;
   }
 }
 
